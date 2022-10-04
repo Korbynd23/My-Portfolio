@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(241, 241, 241);
+}
+
+.header {
+    color: green;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+.navTwo {
+    justify-content: center;
+}
+
+.aboutMe {
+    color: rgb(37, 6, 6);
+}
+
+
+.facePic {
+    border-radius: 25px;    
+}
+
+@media screen and (max-width: 850px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+} 

@@ -4,6 +4,8 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import '../styles/app.css';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -25,6 +27,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <header className="header">Korbyn Dicari</header>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
