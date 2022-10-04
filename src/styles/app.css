@@ -16,6 +16,9 @@
 
 .aboutMe {
     color: rgb(37, 6, 6);
+    margin-top: 50px;
+    margin-left: 10px;
+    /* padding??/margins?? */
 }
 
 
@@ -23,11 +26,34 @@
     border-radius: 25px;    
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.textBox {
+    height: 100px;
+    background-color: white;
+    width: 33%;
+    border-color: rgba(128, 128, 128, 0.507);
+    border-radius: 7px;
+  }
+
 @media screen and (max-width: 850px) {
     .background {
         display: flex;
         flex-direction: column;
         width: 100%;
         
+    }
+    .aboutMe {
+        margin-top: 25px;
+    }
+    .mediaContact {
+        width: 100%;
+        border-color: rgba(128, 128, 128, 0.507);
+        border-radius: 7px;
     }
 } 
