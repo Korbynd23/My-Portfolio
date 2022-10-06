@@ -1,8 +1,5 @@
 import React from 'react';
 
-// import { validateEmail } from '../../utils/helpers';
-
-
 
 export default function Contact() {
 
@@ -15,10 +12,10 @@ export default function Contact() {
     iEmail.value = '';
     iText.value = '';
   }
-
+  
   const validateEmail = (e) => {
     const validateEmail = document.getElementById('inputEmail').value;
-    //eslint-disable-next-line
+    // eslint-disable-next-line
     const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (validateEmail.match(mailformat)) {
       document.form1.text1.focus();

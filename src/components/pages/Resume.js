@@ -3,19 +3,31 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <h2 className='resumeText'>Resume</h2>
+      <div>
+        {/* eslint-disable-next-line */}
+        <a href="https://drive.google.com/file/d/1byUB9C7OGES8jeWgEHDVBhIsotEjnB8U/view?usp=sharing" target="_blank" className='resumeText'>Download Resume</a>
+      </div>
+      <div className='skills'>
+        <br></br>
+        <h4>Front_end Proficiencies</h4>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+        <li>responsive design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <br></br>
+        <h4>Back-end Proficiencies</h4>
+        <li>APIs</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySql Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </div>
     </div>
   );
 }

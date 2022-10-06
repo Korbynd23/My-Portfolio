@@ -22,7 +22,8 @@
 
 
 .facePic {
-    border-radius: 25px;    
+    border-radius: 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
 }
 
 .contact {
@@ -39,6 +40,30 @@
     border-color: rgba(128, 128, 128, 0.507);
     border-radius: 7px;
   }
+
+.resumeText {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 80px;
+}
 
 @media screen and (max-width: 850px) {
     .background {
