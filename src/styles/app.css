@@ -65,6 +65,28 @@
     margin-left: 80px;
 }
 
+.portCards {
+    width: 40vh;
+    height: 30vw;
+    margin: 25px;
+}
+
+.imgResize {
+    height: 30vh;
+}
+
+.cardText {
+    display: flex;
+    justify-content: center;
+}
+
+.cardCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 850px) {
     .background {
         display: flex;
