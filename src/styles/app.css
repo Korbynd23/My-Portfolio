@@ -1,9 +1,14 @@
 * {
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(135, 135, 155); */
+}
+
+.wallpaper {
+    background-image: url('../images/wallFour.jfif');
+    background-size: cover;
 }
 
 .header {
-    color: green;
+    color: rgb(0, 0, 0);
     font-size: 36px;
     margin-top: 10px;
     margin-left: 25px;
@@ -44,6 +49,7 @@
 .resumeText {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .footer {
@@ -66,9 +72,14 @@
 }
 
 .portCards {
-    width: 40vh;
+    width: 45vh;
     height: 30vw;
     margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.portCards:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .imgResize {
@@ -78,6 +89,14 @@
 .cardText {
     display: flex;
     justify-content: center;
+}
+
+.portText {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .cardCont {

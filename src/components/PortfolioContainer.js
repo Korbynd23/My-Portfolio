@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='wallpaper'>
       <header className="header">Korbyn Dicari</header>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
