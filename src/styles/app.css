@@ -15,8 +15,17 @@
     padding: 15px;
 }
 
+.pTag {
+    font-size: 18px;
+}
+
 .navTwo {
     justify-content: center;
+    background-color: rgb(176, 196, 222, .35);
+}
+
+.resText {
+    font-size: 28px;
 }
 
 .aboutMe {
@@ -50,6 +59,8 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 28px;
+    font-family: monospace;
 }
 
 .footer {
@@ -66,10 +77,20 @@
 
 .skills {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-left: 215px; */
+    /* align-items: center; */
+    justify-content: center;
+
 }
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .portCards {
     width: 45vh;
