@@ -8,6 +8,7 @@ import '../styles/app.css';
 import linked from '../images/linked.png'
 import gitHub from '../images/github.png'
 import stack from '../images/stack.png'
+import name from '../images/name.png'
 
 
 export default function PortfolioContainer() {
@@ -30,7 +31,9 @@ export default function PortfolioContainer() {
 
   return (
     <div className='wallpaper'>
-      <header className="header">Korbyn Dicari</header>
+      <header className="header">
+        <img className='nameLogo' src={name}></img>
+      </header>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <br></br>
