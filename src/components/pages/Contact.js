@@ -31,8 +31,8 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className='conText'>Contact Me</h1>
       <form name="form1" className='contact' method="post" action="mailto:kdicari24@gmail.com">
+      <h1 className='conText'>Contact Me</h1>
         <div className="row mb-3">
           <label for="inputName" className="col-sm-2 col-form-label fs-5 fw-bold">Your Name</label>
         </div>

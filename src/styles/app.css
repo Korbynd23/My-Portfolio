@@ -4,7 +4,7 @@
 
 .wallpaper {
     background-image: url('../images/wallFour.jfif');
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .header {
@@ -37,10 +37,14 @@
     margin-left: 10px;
 }
 
+.aboutText {
+    font-size: 18px;
+}
 
 .facePic {
-    border-radius: 25px;
+    border-radius: 160px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    opacity: 88%;
 }
 
 .contact {
@@ -64,7 +68,8 @@
     margin-top: 20px;
     margin-bottom: 28px;
     font-family: monospace;
-    font-size: 22px;
+    font-size: 28px;
+    color: rgb(44, 76, 255);
 }
 
 .footer {
@@ -92,9 +97,9 @@
 }
 
 .conText {
-    margin-left: 15px;
-    margin-top: 25px;
+    margin-bottom: 25px;
     text-decoration: underline;
+    font-size: 32px;
 }
 
 .centered {
@@ -146,6 +151,21 @@
         flex-direction: column;
         width: 100%;
     }
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .facePic {
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .faceCont {
+        display: flex;
+        justify-content: center;
+    }
 
     .aboutMe {
         margin-top: 25px;
@@ -168,5 +188,9 @@
     .resText {
         font-size: 24px;
         width: max-content;
+    }
+    .nameLogo {
+        width: 20vh;
+        margin: 0;
     }
 }

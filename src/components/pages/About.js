@@ -6,11 +6,14 @@ export default function About() {
   return (
     <div className='aboutMe'>
       <div className='col-md-12 row justify-content-center background'>
-        <p className='col-md-6 order-2'>
-          Hello! My name is Korbyn Dicari. I am new to coding and currently taking a Coding Boot Camp through Trilogy at Ohio State University. Although this is a new career route for me, I have spent 8+ years running and managing multi-million dollar restaraunt establishments everywhere from Chicago to Hawaii. After leaving the food industry I enrolled in Universal Technical Institute  (Phoenix, AZ), in which I studied Automotive and Diesel Technologies. Upon completetion of my education in Phoenix I relocated to Columbus in 2018 and accepted a job as a traveling field tech with a storage solutions company. My primary work included diagnosing and repairing multiple types of equipment from electric forklifts to conveyors, some of my clients included Amazon, Big Lots, L Brands and Freightliner. As time progressed working became alot more "tech" technical, alot less mechanical fixes and more automation, software and server repairs. This type of work had reaffirmed my love for technology and pushed me to further my education. All this put me right here in the Coding Boot Camp with a creative drive and a strong ambition for learning to take my career to the next level.
+        <p className='col-md-6 order-2 aboutText'>
+          Hello! My name is Korbyn Dicari, I am a Full-Stack bootcamp student at The Ohio State University (Grad date - 10/17/22). My skillset includes PWA's, Full-Stack web development, MySQL Databases, NoSQL databases, and React. I am always prepared to learn new skills and love a good challenge. In order to improve my skills, I do a lot of projects to keep my skills up to date.
+          On the home page, you can find my current work. I am always coding so check in once in a while, my home page may include some new work! Click on the contact
+          tab if you want to get in touch with me, whether its for collaboration on a project, a job offer, or even any questions! I welcome and invite you to get in
+          contact with me.
         </p>
-        <div className='col-md-3 order-3'>
-          <img src={ porforlioImage } className="facePic" alt="author" width="285" height="325"></img>
+        <div className='col-md-3 order-3 faceCont'>
+          <img src={porforlioImage} className="facePic" alt="author" width="285" height="325"></img>
         </div>
       </div>
     </div>
