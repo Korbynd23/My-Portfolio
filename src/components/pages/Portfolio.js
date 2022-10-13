@@ -12,46 +12,46 @@ export default function Portfolio() {
         <h3 className='portText'>Recent Work</h3>
       <div className='cardCont'>
 
-        <div className="card portCards"><a href="https://korbynd23.github.io/Module1ChallengeKorbyn/">
+        <div className="card portCards"><a href="https://korbynd23.github.io/Module1ChallengeKorbyn/" target="_blank">
           <img src={horiseon} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
             <p className="cardText">Horiseon Website Refactor</p>
           </div>
         </div>
-        <div className="card portCards"><a href="https://cryptic-bastion-86548.herokuapp.com/">
+        <div className="card portCards"><a href="https://cryptic-bastion-86548.herokuapp.com/" target="_blank">
           <img src={noteTaker} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
             <p className="cardText">NoteTaker App</p>
           </div>
         </div>
-        <div className="card portCards"><a href="https://github.com/Korbynd23/Regex_Tutorial">
+        <div className="card portCards"><a href="https://github.com/Korbynd23/Regex_Tutorial" target="_blank">
           <img src={regex} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
             <p className="cardText">Regex Tutorial</p>
           </div>
         </div>
-        <div className="card portCards"><a href="https://nameless-ravine-75516.herokuapp.com/">
+        <div className="card portCards"><a href="https://nameless-ravine-75516.herokuapp.com/" target="_blank">
           <img src={techBlog} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
             <p className="cardText">Tech Blog</p>
           </div>
         </div>
-        <div className="card portCards"><a href="https://limitless-fortress-03145.herokuapp.com/">
+        <div className="card portCards"><a href="https://limitless-fortress-03145.herokuapp.com/" target="_blank">
           <img src={textEditor} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
-            <p className="cardText">Text Editor App</p>
+            <p className="cardText">PWA Text Editor App</p>
           </div>
         </div>
-        <div className="card portCards"><a href="https://korbynd23.github.io/weatherAPI/">
+        <div className="card portCards"><a href="https://korbynd23.github.io/weatherAPI/" target="_blank">
           <img src={webApp} className="card-img-top imgResize" alt="Business sided website"></img>
           </a>
           <div className="card-body">
-            <p className="cardText">Weather Forecast</p>
+            <p className="cardText">5-Day Weather Forecast</p>
           </div>
         </div>
       </div>
