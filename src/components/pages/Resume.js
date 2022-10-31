@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <div>
         {/* eslint-disable-next-line */}
-        <a href="https://drive.google.com/file/d/1byUB9C7OGES8jeWgEHDVBhIsotEjnB8U/view?usp=sharing" target="_blank" className='resumeText'>View Resume</a>
+        <a href="https://drive.google.com/file/d/1lWLPTedXG9B4QEVyUp5XlTp2OQqu4Ree/view?usp=sharing" target="_blank" className='resumeText'>View Resume</a>
       </div>
       <div className='skills' >
         <div className='col-4 centered'>
